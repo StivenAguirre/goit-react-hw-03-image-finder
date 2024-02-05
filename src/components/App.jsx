@@ -1,7 +1,10 @@
+import { Fragment } from "react";
+import Searchbar from "../components/Searchbar";
+
 export const App = () => {
   return (
-    <div>
-      React homework template
-    </div>
+    <Fragment>
+      <Searchbar />
+    </Fragment>
   );
 };
